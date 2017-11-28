@@ -50,7 +50,7 @@ issue 创建后需尽快指定里程碑，参考[《里程碑规范》](里程�
 - 所有带有 ICP 工作量标记的 issue, 必须通过提交 pull request 的方式验收；
   一些工作如需求分析，调研，文档撰写，需要将相关文档整理为 md 文件，或在如 README.md 等文件中添加链接引用，同样以 pull request 的方式提交验收；
 
-- pull request 的验收方式见[《pull request 规范》](pull request 规范.md)
+- pull request 的验收方式见[《pull request 规范》](pull%20request%20规范.md)
 
 ## issue 的关闭
 

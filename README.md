@@ -26,12 +26,13 @@
 
 ## 5、贡献者规范
 
-[《issue 规范》](issue 规范.md)  
-[《pull request 规范》](pull request 规范.md)
+- [《issue 规范》](issue%20规范.md)  
+- [《pull request 规范》](pull%20request%20规范.md)  
+- [《里程碑规范》](里程碑规范.md)
 
 ## 6、奖励机制
 
-见 [《ICP 奖励机制》](ICP 奖励机制.md)
+见 [《ICP 奖励机制》](ICP%20奖励机制.md)
 
 ## 7、管理模式
 
