@@ -44,9 +44,14 @@
 成立条件：合格 pr 的 review
 工作量计算：review 者在 comment 的给出工作量评估，由 committer 在确定后在 pr 上打上 size label
 
-### 3.3、bug
+### 3.3、报告 bug
 
-成立条件：合格 pr fix 的 bug
+成立条件：
+
+- 报告 bug, 并且报告复现方法（以测试代码的方式，或操作描述的方式）
+- 此 bug 通过正确的 pull request 得到 fix.
+- 若复现条件苛刻，bug 报告者需在开发者进行验收测试时提供必要帮助；
+
 工作量计算：固定 size: 0.1D
 
 ### 3.4、issue
