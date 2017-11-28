@@ -1,0 +1,6 @@
+*.py[cod]
+*.bak
+*.log.*
+*.log
+*.swp
+.idea
