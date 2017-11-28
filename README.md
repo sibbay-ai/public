@@ -22,16 +22,16 @@
 
 - 个人，不得是组织、团队
 - 赞同小白众和的理念和价值观，并愿为小白的事业做出贡献
-- github账号创建时间超过6个月
+- github 账号创建时间超过 6 个月
 
 ## 5、贡献者规范
 
-《issue 规范》  
-《pull request》
+[《issue 规范》](issue 规范.md)  
+[《pull request 规范》](pull request 规范.md)
 
 ## 6、奖励机制
 
-见 [ICP 奖励机制](ICP 奖励机制.md)
+见 [《ICP 奖励机制》](ICP 奖励机制.md)
 
 ## 7、管理模式
 
