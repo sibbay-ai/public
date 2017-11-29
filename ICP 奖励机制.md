@@ -83,6 +83,7 @@
 ### 4.1、申请方式
 
 committer 会以 issue 的形式发放任务，凡是有 **ICP** 且无 **In Progress** 标签的 issue ，合格参与者均有权申请；  
+非指定人员的ICP issue会统一放到 public repo的issue中；  
 申请者直接在该 issue 上提交留言：**"@committer 申请开发 Size：xx Deadline：2017-12-5"**  
 注：committer已经标注 size 的，原则上参与者所报工作量不得大于它。
 
@@ -149,3 +150,9 @@ committer 会以 issue 的形式发放任务，凡是有 **ICP** 且无 **In Pro
 
 一经证实，小白有权停止其贡献资格，并减少甚至取消其 CI 值。
 
+### 7、发放方式
+
+每月15日统计已经merge的pr  
+现金通过mart.coding.net或zbj.com发放（可以自行选择），税费自负。
+
+#### 说明：以上规范的内容（包含链接引用的部分），上海尘微科技有限公司拥有解释权
