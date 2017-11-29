@@ -4,3 +4,4 @@
 *.log
 *.swp
 .idea
+.DS_Store
