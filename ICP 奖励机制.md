@@ -150,7 +150,14 @@ committer 会以 issue 的形式发放任务，凡是有 **ICP** 且无 **In Pro
 
 一经证实，小白有权停止其贡献资格，并减少甚至取消其 CI 值。
 
-### 7、发放方式
+## 7、发放标准及方式
+
+### 7.1、标准
+
+Contributor每个D奖励单价为RMB500（暂定）  
+Commiter每个D奖励单价为RMB700 （暂定）  
+
+### 7.2、方式
 
 每月15日统计已经merge的pr  
 现金通过mart.coding.net或zbj.com发放（可以自行选择），税费自负。
