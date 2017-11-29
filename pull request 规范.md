@@ -5,10 +5,16 @@
 ## pull request 的创建
 
 - 完成代码编写或文档编写工作后，提交 pull request 来进行验收；
-- 一个 pull request 必须针对一个到多个 issue; 
+
+- 一个 pull request 必须针对一个到多个 issue;  
   换言之，不接受不针对 issue 的 pull request;
-- pull request 中包含的 commit 需正确命名，声明 `#<issue 编号>`
-- pull 对应的分支应该按照 `开发者/目的` 命名，例如 `ben7th/fix_chart_bug`
+
+- pull request 中包含的 commit 需正确命名，声明 `#<issue 编号>`.
+
+- pull 对应的分支应该按照 `类型/开发者-目的` 命名。  
+  可取的类型包括：`bugfix`(修 BUG) `feature`(功能特性开发) `doc`(文档工作)  
+  例如，ben7th 修正图表显示不正确的 bug，可以表示为：  
+  `bugfix/ben7th-chart-error`
 
 ## pull request 的验收(review)
 
