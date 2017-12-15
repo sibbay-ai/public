@@ -26,7 +26,7 @@
 - 赞同小白众和的理念和价值观，并愿为小白的事业做出贡献
 - github 账号创建时间超过 6 个月
 
-## 5、贡献者规范
+## 5、相关规范
 
 - [《issue 规范》](issue%20规范.md)  
 - [《pull request 规范》](pull%20request%20规范.md)  
@@ -39,6 +39,13 @@
 ## 7、管理模式
 
 采取 MGM(Meritocratic Governance Model) 采取 apache 的精英治理模型，细则另定。
+
+## 8、mentor机制
+
+在社区中，为使 Contributor 能更好更快的融入，每位 Committer 和 Contributor 成员都有义务帮助社区其他成员，同时会指定一名 mentor， 负责辅导并带领其熟悉小白的众和模式和icp流程 。  
+原则是：One Contributor One Mentor 。一般是由第一个项目的 committer 担任，也可自荐经 committer 确认。  
+凡是熟悉小白众和模式和icp机制且认可小白价值观的所有 Committer  和 资深的Contributor 均可担任 mentor 。  
+只有担任过 mentor 的 Contributor 有机会成为 Committer  
 
 ## 其他：
 有问题可参看[《icp入门FAQ》](icp入门FAQ.md)

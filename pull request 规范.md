@@ -1,6 +1,8 @@
 # pull request 规范
 
 下文对 pull request 的创建，以及对 review 工作作出规范说明；
+小白采用双分支的方式进行代码的管理。master和develop，所有的contributor仅仅只能向develop上推送pr。
+icp的统计仅仅针对已经进入master分支的所有关联issue和pr
 
 ## pull request 的创建
 
