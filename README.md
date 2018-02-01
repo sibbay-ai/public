@@ -34,13 +34,17 @@
 
 ## 6、奖励机制
 
-见 [《ICP 奖励机制》](ICP%20奖励机制.md)
+见 [《icp奖励机制》](ICP%20奖励机制.md)
+
+已经发放的历史见：[《icp发放表》](https://github.com/sibbay-ai/public/wiki/icp%E5%8F%91%E6%94%BE%E8%A1%A8)
 
 ## 7、管理模式
 
 采取 MGM(Meritocratic Governance Model) 采取 apache 的精英治理模型，细则另定。
 
+## 8、法律规范
 
+见[《法律文件》](法律文件.md)
 ## 其他：
 有问题可参看[《icp入门FAQ》](icp入门FAQ.md)
 ## 说明：以上规范的内容（包含链接引用的部分），上海尘微科技有限公司拥有解释权
