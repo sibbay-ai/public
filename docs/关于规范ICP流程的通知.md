@@ -16,6 +16,8 @@ ICP流程图： https://www.processon.com/view/link/5a65784ce4b05a8ff311e34f
 * 后端 @sinchb
 * 运营  @alisahuxu
 
+**注意：此次未按期按规范修改的，就延迟到下一次统计。**
+
 
 ## 时间节点
    各位committer于2018-02-04 24:00:00前完成验收，并在issue中通知@sinchb
