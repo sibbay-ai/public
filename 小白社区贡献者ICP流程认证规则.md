@@ -3,6 +3,7 @@
 非技术人员可以发issue申请培训github 网页版的基本操作。  
 ## 规则二
 ICP相关文档请参考《小白社区贡献者ICP流程认证培训文档清单》。
+###
 文档名称 | 文档链接
 ---|---
 ICP入门FAQ|[ICP入门FAQ文档链接](https://github.com/sibbay-ai/public/blob/master/icp%E5%85%A5%E9%97%A8FAQ.md)
