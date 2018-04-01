@@ -17,7 +17,7 @@
 我们欢迎大家以issue的形式提出建议，提出需要开发的内容。不过最终必须由committer认可，并打上icp标签才能生效。一旦成为icp，建议提出者有优先承接的权利。
 
 ## 7、对小白的项目不熟悉怎么办？
-- 我们建议你首先仔细阅读[《icp操作流程图》](https://www.processon.com/view/link/5a65784ce4b05a8ff311e34f)及https://github.com/sibbay-ai/public/issues中的相关issue；
+- 我们建议你首先仔细阅读[《icp操作流程图》](https://www.processon.com/view/link/5a65784ce4b05a8ff311e34f)及https://github.com/sibbay-ai/public/issues 中的相关issue；
 - 可以从一些简单的issue开始做起；
 - 可以向committer申请新人扶持项目，小白在确认你能力和时间的条件下，会以付费的方式让你熟悉我们的项目；
 
