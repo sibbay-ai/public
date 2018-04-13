@@ -2,45 +2,286 @@
 
 ## 1、小白(Sibbay)
 
-小白是一个基于"众"的形式进行建立并运行的组织。其目标是以大众的医疗健康数据造福大众。  
-我们希望探索一种基于有偿服务的社区组织模式。小白是一个采用众和方式推动的青色组织。  
+小白的使命是以大众的医疗健康数据造福大众，是一个基于"众"的形式进行建立并运行的社区。
+为此我们决定探索一种全新的基于奖励的社区组织模式来推动达成目标。小白是一个采用众和方式推动的青色组织。  
 
-**以尊重和信任为基础，自主参与为形式，公正回报为机制，以实现高效、可持续、可预期的商业目标的众人和合形式。**
+众和的核心思想是：  
+**以尊重和信任为基础，自主参与为形式，公正奖励为机制，以实现高效、可持续、可预期的商业目标的众人和合形式。**
 
-## 2、小白价值观
+## 2、社区价值观
 
 - 尊重、信任；
+- 愿以悲悯之心为公众的健康做贡献
 - 严格的执行标准；
-- 协作；
-- 考虑周全，为协作提供便利；
+- 协作和为协作提供便利；
 - 当你没有时间时，请告诉大家；
-- 强制要求安全性；
+- 保障信息的安全；
 
-## 3、issue就是一切
+## 3、贡献者
+### 3.1、合格贡献者
+
+- 个人，不得是组织、团队；
+- 赞同小白众和的理念和价值观，并愿为小白的事业做贡献；
+- github 账号创建时间超过 6 个月（针对技术人员）；
+
+### 3.2、如何申请成为认证贡献者
+在https://github.com/sibbay-ai/public 提交申请issue格式:
+
+```
+题目：申请成为小白众和社区贡献者
+内容：
+@shero3
+个人简介：说明技术相关特长，并希望进行的贡献（前端、后端、产品、项目管理等等）
+承诺：认同小白众和社区的价值观和icp贡献流程
+```
+
+说明：
+- 收到申请后社区会视情况安排进行icp流程认证，见[《贡献者认证流程》](贡献者认证流程.md)，在通过认证后成为认证贡献者。
+- 建议你仔细阅读 https://github.com/sibbay-ai/public 下的issue（包括close的issue）
+- 建议你观摩小白社区的早会，地址是：https://zoom.us/j/9552592803 ，以了解团队的工作方式
+
+### 3.3、如何贡献
+
+作为小白健康的认证贡献者，原则上你可以申请任何有益于小白的贡献内容，可以是已经提出的icp issue，也可以由自己提出。同时认证贡献者每月应该完成一定的贡献size。  
+说明：  
+- “自己找”是你贡献的主要方式
+- 由committer安排的任务
+- 参与讨论和会议可以快速了解项目的现状和方向
+- 小白社区的早会地址是：https://zoom.us/j/9552592803 欢迎你随时参加
+
+
+### 3.4、角色
+
+有三种角色：  
+
+- Contributor：是指参与开发的同学   
+- Committer：项目或者模块的管理者，对质量和进度负责  
+- Maintainer：是社区的组织者和协调者，并有权对icp执行过程进行纠正    
+
+说明：
+
+- contributer对应的committer可以有一个或多个
+- 在不同的repo中，contributer对应的committer可以不同
+- 在同一个repo中可以同时是contributer和committer
+
+
+## 4、icp
+
+为了实现社区的目标设计了icp操作方式
+
+icp（issue、commit/comment、pr)机制的核心原则是：
+
+### 4.1 issue就是一切
 
 凡没有在 issue 中记录的，都没有发生。
 
-## 4、合格参与者
+### 4.2 提交物是目标
 
-- 个人，不得是组织、团队
-- 赞同小白众和的理念和价值观，并愿为小白的事业做出贡献
-- github 账号创建时间超过 6 个月
+一切有价值的贡献均应有对应提交物（可以是代码、设计、文档等等），并以此为衡量工作量的唯一依据；  
 
-## 5、规范
-- [《icp操作流程图》](https://www.processon.com/view/link/5a65784ce4b05a8ff311e34f)
-- [《issue 规范》](issue%20规范.md)  
-- [《pull request 规范》](pull%20request%20规范.md)  
-- [《里程碑规范》](里程碑规范.md)
+说明：
+- 提交物可以是pr中内容，也可以在issue中包含并说明，只要EI的reviewer看得清楚即可
 
-## 6、奖励机制
+### 4.3 评价来自社区
+issue的size是否合理由社区成员进行投票评价
 
-见 [《ICP 奖励机制》](ICP%20奖励机制.md)
 
-## 7、管理模式
+## 5、icp操作流程
+操作流程下图：
+
+[icp操作流程图](https://www.processon.com/view/link/5ab0cc2ae4b0e93533948b2c)
+
+图中的小人图表说明contributor、Committer的操作权限。
+
+### 5.1、创建 issue
+社区建议并鼓励贡献者在做任何事情时均以创建issue为开始，并@给相关committer或者contributor。
+
+### 5.2、确定开发
+只有committer才能确定某个issue应该进入开发流程，并打上 icp 的 label 作为标记。
+
+### 5.3、申请开发
+contributor或committer均可自由申请icp任务的开发，在icp issue的comment中提交下面的文字：  
+```
+申请开发 deadline:yyyy-mm-dd size:xx [@xxx] [文字]
+```
+注意点：
+- 请严格按照这个格式填写，否则可能会无法计入统计；
+- deadline是以引用pr merge的日期为准，所以建议留有一定余量进行review及修改；
+- 一般不建议一个issue的size太大，如果本来工作量就很大那么建议拆分为多个issue；
+- @给committer
+- 申请开发comment提交的时间就是starttime
+### 5.4、确认
+committer在确定接受contributor的申请后，将assigness指定为该contributor，并打上size的标签。并表示该issue的任务进入开发流程。
+注意：
+- 一个issue只能指定一个assigness
+
+### 5.5、变更
+issue在执行过程中，在规定允许范围内contributer可向committer中提出变更申请，并由committer同意后：
+- deadline变更：由committer在一个独立的comment中写
+```
+变更 deadline:yyyy-mm-dd [@xx] 变更原因
+```
+- size变更：由committer删除原来的size label后打上新的label
+
+### 5.6、pr的引用
+在pr中应该引用已经完成的issue，引用方式：在pr的正文或comment中撰写如下文字：
+```
+fix|for:issue-url [文字]
+```
+注意：
+- 每一行写一个issue
+
+
+### 5.7、pr的icp label
+不是所有的pr的merge都表示对提交物的认可，考虑到有些merge的目的是为了使得代码以进行测试，所以社区规定只有committer才有权利打上icp label，也只有打上icp label的pr才是有效pr。
+
+### 5.8、pr的assigness
+pr的assigness由committer进行指定，并且merge只能由assigness进行操作。
+说明：
+- 一个pr只能指定一个assigness
+
+### 5.9、pr的size
+committer可以在pr打上size的label，以表示assigness的merge工作（一般是指review）的size。
+
+### 5.10、review 
+任何pr都必须由非提交者进行review。
+说明：
+- reviewer可以由contributer或committer更需要进行指定
+- pr的size可以用于表示review的size
+- review工作量很大的情况下，可以创建专门的review issue并在该pr中引用（同3.6）
+- 理论上社区认为review耗费的size越大，提交的成果质量则越差
+
+## 6、关于size
+
+### 6.1、原则
+
+以提交物为目标的**直接**努力均可计入size。标准以该领域熟练人员正常完成所需的时间长度为准。  
+
+单位：1d=8小时  
+说明：  
+- 一般建议不要提交size很大的issue，如果任务工作量较多则建议拆分；
+
+
+### 6.2、确定
+由contributer或committer提出，经协商同意后，由committer打上size label。    
+### 6.3、变更
+如果实际工作量与预估要较大的出入，contributer可根据实际情况向committer提出size变更：  
+变更申请需写明原因和size调整的数量，并经committer确认。
+
+
+## 7、关于deadline
+### 7.1、原则
+deadline一经确认，原则上不能变更，应该在期限内完成。
+### 7.2、变更
+当出现下面情况时，contributer可以提出变更申请：
+- 出现较大的技术障碍
+- 协作关联方出现严重阻塞，且不可能独立解决
+- 出现不可抗力的原因
+变更申请需写明原因和新的deadline，并经committer确认。
+### 7.3、按时指数ti
+```
+ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttime)/(mergetime-starttime))
+```
+说明：
+- starttime是以提出申请的comment的时间为准，如果contributer认为committer的确认回复太晚会影响deadline的完成，应该马上申请修改deadline。
+- mergetime表示pr被merge的时间
+- deadline是指定日期的24:00
+- ti的计算精度是hour
+
+
+## 8、评价
+推动社区有序
+小白有两个评价指数：贡献指数(CI)和效率指数(EI)
+具体指数小白会每周进行一次更新，并公开发布。
+### 8.1、效率指数（Efficiency Index)
+是 contributor 和 committer 的在单位size贡献效率的评估，该指标核心由所有contributer投票产生，是一个仅仅具有比较意义的指标。
+说明：
+- 由系统以本月所有的icp issue为基础，生成issue对比pair
+- 由系统将这些issue pair分配给本月的贡献者，进行比较确定其中效率更高者，则该issue获得1*size的EI点
+- 如果在规定时间内未提交评判结果，则reviewer会被扣除 1*(size1+size2) 的EI点，并公开reviewer
+- 每月19日00:00公布EI表在：www.sibbay.ai/icp
+- 每月17日00:00-每月19日00:00 为评价时间
+
+### 8.2、贡献指数（Contribute Index）
+是 contributor 和 committer 的累计贡献评价值，核心是已完成的size。
+具体规则见：《CI计算规则》
+说明： 
+- 每月统计一次并公布在：www.sibbay.ai/icp 
+- CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
+
+## 9、奖励
+社区给会以**有效的issue**和**有效pr**的size为依据进行奖励。  
+
+### 9.1、奖励标准
+- 每个贡献者的初始奖励标准是由社区按照规定进行协商确定的，并告知贡献者。
+- 对于EI点连续3个月排在前10%的贡献者可以申请提高奖励标准
+
+### 9.2、统计与公布
+- 奖励数量：
+```
+sum(size*标准*ti)
+```
+- 统计时间
+上个月16日00:00-本月16日00:00时间段进行pr merge的pr和引用issue
+-社区所有的icp issue和pr的具体情况均在 www.sibbay.ai/icp 中有详细的显示。  
+
+### 9.3、方式
+所有贡献者可选择接受奖励的方式：
+#### 现金形式
+每月 15 日统计已经 merge 的 pr  
+现金通过 mart.coding.net 或 zbj.com 发放（可以自行选择），税费自负。  
+#### token
+贡献者也可选择代表贡献奖励的的token，细则另定。  
+
+说明：  
+
+- 每个贡献者应将个人的详细信息提供给社区
+- 在相关的平台上登记相应的账号
+
+## 10、淘汰机制
+
+### 10.1、效率和工作量
+
+- 第一次排名最后的10%，邮件提醒，自我改善；
+- 第二次排名最后的10%，committer协助改善；
+- 第三次排名最后的10%，由社区人事管理推进改善；
+- 连续 3 月 EI 排在倒数 10%（不足一人则以一人计）的账号社区有权限制其半年内不得进行奖励统计，或者其他的处罚方式
+- 月贡献低于3size不进入EI排名，同时社区有权暂停贡献者的github权限
+- 对效率特别低的贡献者，社区有权直接取消其认证贡献者资格
+
+### 10.2、违反社区价值观
+
+社区要求每个贡献者均要遵循前社区的六条价值观，一旦出现一下行为：
+
+- 没有时间时，未能及时告知社区
+- 违反小白的版权管理规定
+- 数据保密规定
+- 虚报工作量
+- 删除他人的issue留言
+- 以及一切违反小白价值观的行为
+
+
+一经证实，小白有权停止其贡献资格，并减少甚至取消其 CI 值。
+
+## 11、社区管理模式
 
 采取 MGM(Meritocratic Governance Model) 采取 apache 的精英治理模型，细则另定。
 
+## 12、法律
+[小白社区贡献者协议](https://shimo.im/docs/nSTirSBPk0Yf2JPI/)
 
-## 其他：
-有问题可参看[《icp入门FAQ》](icp入门FAQ.md)
+## 其他
+我们的产品：
+
+![image](https://user-images.githubusercontent.com/16983441/38481521-d73d8c0e-3bfd-11e8-9767-21456c44111d.png)
+
+|文档名称 | 文档链接| 
+|---|---| 
+|icp FAQ|[ICP入门FAQ文档链接](https://github.com/sibbay-ai/public/blob/master/icp%E5%85%A5%E9%97%A8FAQ.md)|  
+|贡献者认证流程|[贡献者认证流程文档链接](https://github.com/sibbay-ai/public/blob/master/%E8%B4%A1%E7%8C%AE%E8%80%85%E8%AE%A4%E8%AF%81%E6%B5%81%E7%A8%8B.md)|  
+|ICP标准流程图|[ICP标准流程图文档链接](https://www.processon.com/view/link/5ab0cc2ae4b0e93533948b2c)|  
+|pull request规范|[pull request规范文档链接](https://github.com/sibbay-ai/public/blob/master/pull%20request%20%E8%A7%84%E8%8C%83.md)|  
+|里程碑规范|[里程碑规范文档链接](https://github.com/sibbay-ai/public/blob/master/%E9%87%8C%E7%A8%8B%E7%A2%91%E8%A7%84%E8%8C%83.md)|  
+|Github网页版操作步骤| [Github网页版操作步骤文档链接](https://shimo.im/docs/HFYnUnbIRmYGE8Hj)|  
+
 ## 说明：以上规范的内容（包含链接引用的部分），上海尘微科技有限公司拥有解释权

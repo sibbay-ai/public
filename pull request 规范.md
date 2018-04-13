@@ -21,8 +21,7 @@ icp的统计仅仅针对已经进入master分支的所有关联issue和pr
 ## pull request 的验收(review)
 
 - 可由多人对一个 pull request 进行验收
-- 验收工作开始前，由 committer 对 pull request 标记 size label.
-- 验收工作结束后，pull request 关闭时，由 committer 对 参与验收工作的人员的工作量进行确认；
+
 
 ## pull request 的更新
 
