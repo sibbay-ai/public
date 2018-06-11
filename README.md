@@ -196,14 +196,14 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 - 由系统以本月所有的icp issue为基础，生成issue对比pair
 - 由系统将这些issue pair分配给本月的贡献者，进行比较确定其中效率更高者，则该issue获得1*size的EI点
 - 如果在规定时间内未提交评判结果，则reviewer会被扣除 1*(size1+size2) 的EI点，并公开reviewer
-- 每月19日00:00公布EI表在：icp.sibbay.ai
+- 每月19日00:00公布EI表在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - 每月17日00:00-每月19日00:00 为评价时间
 
 ### 8.2、贡献指数（Contribute Index）
 是 contributor 和 committer 的累计贡献评价值，核心是已完成的size。
 具体规则见：《CI计算规则》
 说明： 
-- 每月统计一次并公布在：icp.sibbay.ai
+- 每月统计一次并公布在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
 
 ## 9、奖励
@@ -220,7 +220,7 @@ sum(size*标准*ti)
 ```
 - 统计时间
 上个月16日00:00-本月16日00:00时间段进行pr merge的pr和引用issue
--社区所有的icp issue和pr的具体情况均在 icp.sibbay.ai 中有详细的显示。
+-社区所有的icp issue和pr的具体情况均在 [icp.sibbay.ai](http://icp.sibbay.ai) 中有详细的显示。
 
 ### 9.3、方式
 所有贡献者可选择接受奖励的方式：
