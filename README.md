@@ -207,7 +207,7 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 - CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
 
 ### 8.3、效率指数(Efficiency Index)
-效率指数(Efficiency Index) 指的是 效率分数(ES) 除以 当月的 icp size
+效率指数(Efficiency Index) 指的是 当月该贡献者的 效率分数(ES) 除以 当月该贡献者的 icp size
 说明：
 - 每月19日00:00公布EI表在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - 每月17日00:00-每月19日00:00 为评价时间
