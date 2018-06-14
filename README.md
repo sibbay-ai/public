@@ -188,28 +188,28 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 
 ## 8、评价
 推动社区有序
-小白有两个评价指数：贡献指数(CI)和效率指数(EI)
-具体指数小白会每周进行一次更新，并公开发布。
-### 8.1、效率指数（Efficiency Index)
+小白有三个评价指数：贡献指数(CI)，效率指数(EI)和效率分数(ES)
+具体指数小白会每月进行一次更新，并公开发布。
+### 8.1、效率分数(Efficiency Score)
 是 contributor 和 committer 的在单位size贡献效率的评估，该指标核心由所有contributer投票产生，是一个仅仅具有比较意义的指标。
 说明：
 - 由系统以本月所有的icp issue为基础，生成issue对比pair
 - 由系统将这些issue pair分配给本月的贡献者，进行比较确定其中效率更高者，则该issue获得1*size的EI点
-- 如果在规定时间内未提交评判结果，则reviewer会被扣除 1*(size1+size2) 的EI点，并公开reviewer
-- 每月19日00:00公布EI表在：[icp.sibbay.ai](http://icp.sibbay.ai)
+- 如果在规定时间内未提交评判结果，则reviewer会被扣除 1*(size1+size2) 的ES点，并公开reviewer
+- 每月19日00:00公布ES表在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - 每月17日00:00-每月19日00:00 为评价时间
 
-### 8.2、贡献指数（Contribute Index）
+### 8.2、贡献指数(Contribute Index)
 是 contributor 和 committer 的累计贡献评价值，核心是已完成的size。
 具体规则见：《CI计算规则》
 说明： 
 - 每月统计一次并公布在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
 
-### 8.3、效率指数系数（Efficiency Index Ratio) 
-效率指数系数（Efficiency Index Ratio) 指的是效率指数（Efficiency Index) 除以 当月的 icp size
+### 8.3、效率指数(Efficiency Index)
+效率指数(Efficiency Index) 指的是 效率分数(ES) 除以 当月的 icp size
 说明：
-- 每月19日00:00公布EIR表在：[icp.sibbay.ai](http://icp.sibbay.ai)
+- 每月19日00:00公布EI表在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - 每月17日00:00-每月19日00:00 为评价时间
 
 ## 9、奖励
