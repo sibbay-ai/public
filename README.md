@@ -200,8 +200,7 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 - 每月17日00:00-每月19日00:00 为评价时间
 
 ### 8.2、贡献指数(Contribute Index)
-是 contributor 和 committer 的累计贡献评价值，核心是已完成的size。
-具体规则见：《CI计算规则》
+是 contributor 和 committer 的累计贡献评价值，以ES（效率分数）为累加值。
 说明： 
 - 每月统计一次并公布在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
