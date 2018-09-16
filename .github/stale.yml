@@ -7,6 +7,7 @@ daysUntilClose: 15
 # 带有下列标签的 issue 不会被标记为“过期”
 exemptLabels:
   - 讨论
+  - 公告
 
 # 被标记为“过期”的 label 名
 staleLabel: 过期
