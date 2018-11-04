@@ -99,11 +99,12 @@ issue的size是否合理由社区成员进行投票评价
 ### 5.3、申请开发
 contributor或committer均可自由申请icp任务的开发，在icp issue的comment中提交下面的文字：  
 ```
-申请开发 deadline:yyyy-mm-dd size:xx [@xxx] [文字]
+申请开发 deadline:yyyy-mm-dd [size:xx] [@xxx] [文字]
 ```
 注意点：
 - 请严格按照这个格式填写，否则可能会无法计入统计；
 - deadline是以引用pr merge的日期为准，所以建议留有一定余量进行review及修改；
+- size可以在这确定，也可以后面单独申请；
 - 一般不建议一个issue的size太大，如果本来工作量就很大那么建议拆分为多个issue；
 - @给committer
 - 申请开发comment提交的时间就是starttime
@@ -152,7 +153,7 @@ committer可以在pr打上size的label，以表示assigness的merge工作（一�
 
 ### 6.1、原则
 
-以提交物为目标的**直接**努力均可计入size。标准以该领域熟练人员正常完成所需的时间长度为准。  
+以提交物为目标的**直接**努力均可计入size。标准以该领域熟练人员正常完成所需的时间长度为准。 
 
 单位：1d=8小时  
 说明：  
@@ -200,7 +201,7 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 - 每月17日00:00-每月19日00:00 为评价时间
 
 ### 8.2、贡献指数(Contribute Index)
-是 contributor 和 committer 的累计贡献评价值，以ES（效率分数）为累加值。
+ ES>=1且deadline没有更改deadline并按时完成的issue的size的累加值。
 说明： 
 - 每月统计一次并公布在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
@@ -212,34 +213,44 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 - 每月17日00:00-每月19日00:00 为评价时间
 
 ## 9、奖励
-社区给会以**有效的issue**和**有效pr**的size为依据进行奖励。  
+社区给会以**有效的issue**和**有效pr**的size为依据进行size奖励，并根据任务完成和用户使用（挖矿）的情况进行贡献奖励。  
 
-### 9.1、奖励标准
-- 每个贡献者的初始奖励标准是由社区按照规定进行协商确定的，并告知贡献者。
-- 对于EI点连续3个月排在前10%的贡献者可以申请提高奖励标准
-
-### 9.2、统计与公布
-- 奖励数量：
+### 9.1、size奖励
+#### 9.1.1 统计
 ```
-sum(size*标准*ti)
+sum(size*500*ti)
 ```
 - 统计时间
 上个月16日00:00-本月16日00:00时间段进行pr merge的pr和引用issue
 -社区所有的icp issue和pr的具体情况均在 [icp.sibbay.ai](http://icp.sibbay.ai) 中有详细的显示。
 
-### 9.3、方式
-所有贡献者可选择接受奖励的方式：
-#### 现金形式
-每月 15 日统计已经 merge 的 pr  
-现金通过 mart.coding.net 或 zbj.com 发放（可以自行选择），税费自负。  
-#### token
-贡献者也可选择代表贡献奖励的的token，细则另定。  
 
+#### 9.1.2 方式
+所有贡献者可选择接受奖励的方式：
+- 现金形式
+每月 15 日统计已经 merge 的 pr  
+现金通过众包平台发放（可以自行选择），税费自负。  
+- token
+贡献者也可选择代表贡献奖励的token，兑换比例以www.sibbay.ai网上公布的赎回价格为准。  
+
+#### 9.2 贡献奖励
+#### 9.2.1 条件
+- 本月EI>=1的贡献者有权利参与本月贡献奖励的分配。
+#### 9.2.2 数量
+- 每个月由社区根据任务完成和用户使用（挖矿）的情况确定token奖励的总数T；
+- 每个人分配的数量：以个人CI*贡献者级别指数在本月总CI的比例乘以T
+- 发放方式：三分一是立即可兑现token、三分之一为一年锁定期token和三分之一为二年锁定期token；
+
+#### 9.3 统计时间
+上个月16日00:00-本月16日00:00时间段进行pr merge的pr和引用issue
+-社区所有的icp issue和pr的具体情况均在 [icp.sibbay.ai](http://icp.sibbay.ai) 中有详细的显示。
 说明：  
 
 - 每个贡献者应将个人的详细信息提供给社区
 - 在相关的平台上登记相应的账号
 
+#### 9.4 发放
+每个月20日发放，如遇节假日顺延。
 ## 10、淘汰机制
 
 ### 10.1、效率和工作量
