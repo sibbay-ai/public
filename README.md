@@ -154,12 +154,11 @@ committer可以在pr打上size的label，以表示assigness的merge工作（一�
 ### 6.1、原则
 
 假设贡献者为需求方，其愿意为实现提交物而支付的发包金额。
-单位：1d=500rmb
+单位：1 size=500rmb
 说明：  
 - 不考虑执行的中间过程，size仅仅只与提交物有关系；
 - 发包：就是通过众包平台发包的 
 - 一般建议不要提交size很大的issue，如果任务工作量较多则建议拆分；
-
 
 ### 6.2、确定
 由contributer或committer提出，经协商同意后，由committer打上size label。    
