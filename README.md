@@ -200,11 +200,21 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 - 每月19日00:00公布ES表在：[icp.sibbay.ai](http://icp.sibbay.ai)
 - 每月17日00:00-每月19日00:00 为评价时间
 
-### 8.2、贡献指数(Contribute Index)
- ES>=1且deadline没有更改并按时完成的issue的size的累加值。
+### 8.2、贡献指数 (Contribute Index) 
+
+只有每月 EI >= 1 的贡献者，才统计其贡献指数(CI), EI < 1 的贡献者，当月 CI 为 0  
+当某月某贡献者 EI >= 1 时，其 CI 计算方式如下：
+
+- 逐个判断该贡献者当月的所有 ICP issue
+- 当 ICP issue 满足以下两个条件时：
+  - 该 issue 没有更改过 deadline
+  - 该 issue 在 EI 投票环节至少得到 1 票
+  将该 ICP issue 的 size 累加到 CI
+- 若不满足上述条件，则不累加该 ICP issue 的 size
+
 说明： 
-- 每月统计一次并公布在：[icp.sibbay.ai](http://icp.sibbay.ai)
-- CI是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
+- 贡献指数(CI) 每月统计一次并公布在：[icp.sibbay.ai](http://icp.sibbay.ai)
+- 贡献指数(CI) 是未来小白进行 IPO 或者 ICO 时给予奖励的唯一指标；
 
 ### 8.3、效率指数(Efficiency Index)
 效率指数(Efficiency Index) 指的是 当月该贡献者的 效率分数(ES) 除以 当月该贡献者的 icp size
