@@ -202,7 +202,8 @@ ti = （deadline-starttime)/(mergetime-starttime)<=1?1:(0.7*（deadline-starttim
 
 ### 8.2、贡献指数 (Contribute Index) 
 
-只有每月 EI >= 1 的贡献者，才统计其贡献指数(CI), EI < 1 的贡献者，当月 CI 为 0  
+只有每月 EI >= 1 的贡献者，才统计其贡献指数(CI)  
+当某月某贡献者 EI < 1 是，其当月 CI 为 0  
 当某月某贡献者 EI >= 1 时，其 CI 计算方式如下：
 
 - 逐个判断该贡献者当月的所有 ICP issue
